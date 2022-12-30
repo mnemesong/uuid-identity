@@ -47,4 +47,12 @@ final class UuidIdentity implements IdentityInterface
     {
         return new self(Uuid::uuid4()->toString());
     }
+
+    /**
+     * @return string
+     */
+    public function asString(): string
+    {
+        return $this->uuid;
+    }
 }

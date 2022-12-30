@@ -5,7 +5,7 @@
     "require": {
         "php": ">=7.4",
         "ramsey/uuid": "4.5.*",
-        "mnemesong/identity-interface": "1.*",
+        "mnemesong/identity-interface": "2.*",
         "webmozart/assert": "1.11.*"
     },
     "require-dev": {
