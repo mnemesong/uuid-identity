@@ -93,6 +93,11 @@ class UuidIdentityTest extends TestCase
             {
                 throw new \Error("Dont use this method");
             }
+
+            public function asString(): string
+            {
+                return $this->uuid;
+            }
         };
 
         $this->assertFalse($id1->isSame($anotherClassUuid));
